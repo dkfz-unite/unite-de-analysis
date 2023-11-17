@@ -1,8 +1,0 @@
-#List of scripts
-000_packages_installation.R
-	Description: essential packages installation
-	How to run: automatically when installing docker image
-
-001_de_analysis.R
-	Description: perform differential expression analysis using DESeq2 package. Inputs composed of: 1. count matrix; 2. metadata. Test files can be found in test_data directory (test_count_matrix.txt & test_metadata.txt)
-	How to run: "Rscript 001_de_analysis.R count_matrix metadata outfile"
