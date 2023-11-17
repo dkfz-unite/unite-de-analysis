@@ -1,2 +1,10 @@
+install.packages("ggplot2")
+install.packages("plotly")
+install.packages("htmlwidgets")
+install.packages("stringr")
+install.packages("ggnewscale")
+
 install.packages("BiocManager")
 BiocManager::install("DESeq2", ask = T)
+BiocManager::install("clusterProfiler")
+BiocManager::install("org.Hs.eg.db")
